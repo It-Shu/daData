@@ -11,7 +11,7 @@
   50% { transform: translate(80px,0) }
   100% { transform: translate(0,0) }
 }
-.ldio-bxdqgitwpew div {
+.loading-item div {
   position: absolute;
   width: 80px;
   height: 80px;
@@ -19,22 +19,22 @@
   top: 60px;
   left: 20px;
 }
-.ldio-bxdqgitwpew div:nth-child(1) {
+.loading-item div:nth-child(1) {
   background: rgba(56, 56, 56, 1);
   animation: ldio-bxdqgitwpew 1s linear infinite;
   animation-delay: -0.5s;
 }
-.ldio-bxdqgitwpew div:nth-child(2) {
+.loading-item div:nth-child(2) {
   background: $primary-color;
   animation: ldio-bxdqgitwpew 1s linear infinite;
   animation-delay: 0s;
 }
-.ldio-bxdqgitwpew div:nth-child(3) {
+.loading-item div:nth-child(3) {
   background: rgba(56, 56, 56, 1);
   animation: ldio-bxdqgitwpew-o 1s linear infinite;
   animation-delay: -0.5s;
 }
-.loadingio-spinner-dual-ball-58lldlwgopg {
+.loadingio-spinner-dual-ball {
   width: 100%;
   height: 100%;
   display: flex;
@@ -43,7 +43,7 @@
   overflow: hidden;
   background: transparent;
 }
-.ldio-bxdqgitwpew {
+.loading-item {
   width: 200px;
   height: 200px;
   position: relative;
@@ -51,4 +51,4 @@
   backface-visibility: hidden;
   transform-origin: 0 0; /* see note above */
 }
-.ldio-bxdqgitwpew div { box-sizing: content-box; }
+.loading-item div { box-sizing: content-box; }

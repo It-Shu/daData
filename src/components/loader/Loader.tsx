@@ -3,7 +3,7 @@ import './Loader.scss';
 
 function Loader() {
     return (
-        <div className="loadingio-spinner-dual-ball-58lldlwgopg"><div className="ldio-bxdqgitwpew">
+        <div className="loadingio-spinner-dual-ball"><div className="loading-item">
             <div></div><div></div><div></div>
         </div></div>
     );
