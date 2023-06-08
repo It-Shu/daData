@@ -1,0 +1,101 @@
+@import 'variables';
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  font-family: $font-family-montserrat;
+  margin: 32px 0 0 32px;
+  width: 100%;
+
+  .input-button-container {
+    display: flex;
+    flex-direction: row;
+    margin-right: 32px;
+    .input {
+      width: 75%;
+      min-width: 100px;
+
+      border: 3px solid $primary-color;
+      border-radius: 10px;
+
+      margin-right: 24px;
+    }
+
+    .button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 70px;
+      font-family: $font-family-montserrat;
+      font-style: normal;
+      font-weight: $font-weight-bolt;
+      font-size: 26px;
+
+      background: $primary-color;
+      border-radius: 10px;
+      color: #fff;
+
+      cursor: pointer;
+
+      &:active {
+        background-color: darken($primary-color, 10%);
+        transform: scale(0.95);
+      }
+      &:disabled {
+        background-color: grey;
+        cursor: not-allowed;
+      }
+
+      .search-button-icon {
+        padding-right: 16px;
+      }
+    }
+  }
+
+
+  .dropdown {
+    margin: 10px;
+    padding: 10px;
+    width: 85%;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    .address-title {
+      padding-left: 20px;
+    }
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $primary-color;
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background-color: #555;
+    }
+
+
+    .dropdown-item {
+      padding: 10px;
+      margin: 5px 10px 5px 10px;
+      cursor: pointer;
+      border-bottom: 1px solid #ddd;
+
+
+      &:hover {
+        background: #eee;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    margin: 32px;
+  }
+
+
+}

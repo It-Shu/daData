@@ -1,0 +1,75 @@
+@import '../_variables.scss';
+
+.item-title {
+  font-style: normal;
+  font-weight: $font-weight-normal;
+  font-size: $font-size;
+  line-height: $line-height;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .item-title {
+    font-weight: $font-weight-lighter;
+    font-size: $font-size;
+    line-height: $line-height;
+  }
+}
+
+.side-bar-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  cursor: pointer;
+  padding-bottom: 44px;
+
+  font-style: normal;
+  font-weight: $font-weight-normal;
+  font-size: $font-size;
+  line-height: $line-height;
+
+  .polygon-icon {
+    padding-left: 67px;
+    width: 15px;
+    height: 15px;
+    transform: rotateX(180deg);
+    transition: transform 0.3s;
+
+    &.rotated {
+      transform: rotateX(360deg);
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-bottom: 16px;
+
+    font-style: normal;
+    font-weight: $font-weight-lighter;
+    font-size: $font-size;
+    line-height: $line-height;
+  }
+
+}
+
+.settings-subItems {
+  margin: 10px 0 10px;
+
+  .subItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+    margin-left: 30px;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 16px;
+      margin-left: 15px;
+    }
+  }
+
+
+}

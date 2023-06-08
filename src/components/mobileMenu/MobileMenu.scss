@@ -1,0 +1,77 @@
+@import '../_variables.scss';
+
+.mobile-sidebar {
+  position: absolute;
+
+  .burger-button {
+    all: unset;
+
+    .burger-icon {
+      position: absolute;
+      left: 50vw;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      transform: rotateY(180deg);
+      transition: transform 0.3s;
+
+      &.rotated {
+        transform: rotateY(360deg);
+      }
+    }
+  }
+
+  .background-open {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      padding: 20px;
+      margin: 0;
+
+      img {
+        width: 24px;
+        height: 24px;
+        margin-right: 20px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+
+      .active {
+        font-weight: bold;
+      }
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    display: none;
+  }
+
+}
+
+.nav-links {
+  position: fixed;
+  top: 0;
+  margin-top: 100px;
+  width: 260px;
+  transition: transform 0.4s ease-in-out;
+  transform: translateX(-100%);
+  background-color: #ffffff;
+  box-shadow: $box-shadow;
+}
+
+.nav-links.show-nav {
+  transform: translateX(0);
+  background-color: #ffffff;
+  box-shadow: $box-shadow;
+}
