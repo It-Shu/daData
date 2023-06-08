@@ -4,7 +4,6 @@
   font-style: normal;
   font-weight: $font-weight-normal;
   font-size: $font-size;
-  line-height: $line-height;
   display: flex;
   flex-direction: row;
 
@@ -15,7 +14,6 @@
   .item-title {
     font-weight: $font-weight-lighter;
     font-size: $font-size;
-    line-height: $line-height;
   }
 }
 
@@ -30,7 +28,6 @@
   font-style: normal;
   font-weight: $font-weight-normal;
   font-size: $font-size;
-  line-height: $line-height;
 
   .polygon-icon {
     padding-left: 67px;
@@ -51,7 +48,6 @@
     font-style: normal;
     font-weight: $font-weight-lighter;
     font-size: $font-size;
-    line-height: $line-height;
   }
 
 }
