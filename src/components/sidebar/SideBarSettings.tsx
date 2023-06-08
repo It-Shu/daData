@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from 'react';
 import './SideBarItems.scss';
-import SettingsIcon from "../../assets/Settings.png";
-import Polygon from "../../assets/PolygonOpen.png";
-import ProfileIcon from "../../assets/ProfileSet.png";
+import SettingsIcon from "../../assets/settings.svg";
+import Polygon from "../../assets/triangle.svg";
+import ProfileIcon from "../../assets/profileEdit.svg";
 import {NavLink} from "react-router-dom";
 import {RoutesPaths} from "../../routes/routes";
-import ControlIcon from "../../assets/ControlFinance.png";
+import ControlIcon from "../../assets/cash-register.svg";
 
 interface SideBarSettingsPropsType {
     isOpen?: boolean

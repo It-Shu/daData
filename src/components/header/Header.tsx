@@ -1,13 +1,13 @@
 import React from 'react';
 import './Header.scss';
-import AvatarIcon from '../../assets/ic_person.png'
-import LogoIcon from '../../assets/Logo.png'
+import AvatarIcon from '../../assets/profile-logo.svg'
+import WrenchIcon from '../../assets/wrench.svg'
 
 const Header = () => {
     return (
         <div className="header">
             <div className="logo-container">
-                <img src={LogoIcon} alt="logo" className="logo" />
+                <img src={WrenchIcon} alt="logo" className="logo" />
                 <h1 className="logo-title">Wrench CRM</h1>
             </div>
             <div className="profile-container">

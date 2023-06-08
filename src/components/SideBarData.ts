@@ -1,10 +1,11 @@
 import {RoutesPaths} from "../routes/routes";
-import HomeIcon from './../assets/Home.png'
-import SearchIcon from './../assets/Search.png'
-import TableIcon from './../assets/Tables.png'
-import CalendarIcon from './../assets/Calendar.png'
-import MapsIcon from './../assets/Maps.png'
-import WidgetsIcon from './../assets/Widgets.png'
+import HomeIcon from '../assets/home.svg'
+import SearchIcon from './../assets/search.svg'
+import CalendarIcon from './../assets/calendar.svg'
+import MapsIcon from './../assets/maps.svg'
+import WidgetsIcon from './../assets/widget.svg'
+
+import TableIcon from './../assets/tables.svg'
 
 type SideBarDataType = {
     title: string

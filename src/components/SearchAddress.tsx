@@ -1,6 +1,6 @@
 import React, {ChangeEvent, MouseEvent, useState} from 'react';
 import './SearchAddress.scss';
-import SearchButtonIcon from './../assets/SerchButton.png'
+import SearchButtonIcon from './../assets/searchButton.svg'
 import {getDaData, Root} from "../api/getDaData";
 import Loader from "./loader/Loader";
 

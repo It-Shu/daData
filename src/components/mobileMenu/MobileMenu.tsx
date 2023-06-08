@@ -3,7 +3,7 @@ import SideBarList from "../sidebar/SideBarList";
 import SideBarSettings from "../sidebar/SideBarSettings";
 import SideBarExit from "../sidebar/SideBarExit";
 import './MobileMenu.scss'
-import burgerIcon from '../../assets/burger.png'
+import burgerIcon from '../../assets/burger.svg'
 
 const MobileMenu = () => {
     const [isOpen, setIsOpen] = useState(false);

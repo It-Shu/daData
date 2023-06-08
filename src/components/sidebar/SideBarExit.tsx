@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
 import {RoutesPaths} from "../../routes/routes";
-import ExitIcon from "../../assets/Exit.png";
+import ExitIcon from "../../assets/exit.svg";
 import './SideBarItems.scss'
 
 const SideBarExit = () => {
